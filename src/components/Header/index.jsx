@@ -1,8 +1,9 @@
 import { Container, Favorites, Buy, Logout } from './styles';
 
-import { ButtonText } from '../../components/ButtonText';
+// import { ButtonText } from '../../components/ButtonText';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
+import { ButtonText } from '../../components/ButtonText';
 
 import { FiSearch, FiLogOut } from 'react-icons/fi';
 import { AiFillHeart } from 'react-icons/ai';
@@ -60,7 +61,6 @@ function Header({ search, searchDesserts, searchDrinks }) {
           />
         </svg>
         <h3 onClick={home}>food explorer</h3>
-        {/* <ButtonText text="Meus favoritos" className="hide btnFavorites" />; */}
       </div>
       <Favorites className="show">
         <AiFillHeart />
