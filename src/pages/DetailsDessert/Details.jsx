@@ -3,7 +3,7 @@ import { Container } from './styles';
 import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
 import { Footer } from '../../components/Footer';
-import { ButtonText } from '../../components/ButtonText';
+import { ButtonText } from '../../components/ButtonText/Index';
 
 import { MdKeyboardArrowLeft } from 'react-icons/md';
 import { MdOutlineProductionQuantityLimits } from 'react-icons/md';
