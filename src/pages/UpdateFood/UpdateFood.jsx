@@ -3,7 +3,7 @@ import { Button } from '../../components/Button';
 import { Footer } from '../../components/Footer';
 import { Input } from '../../components/Input';
 import { IngredientItem } from '../../components/IngredientItem';
-import { ButtonText } from '../../components/Buttontext';
+import { ButtonText } from '../../components/ButtonText';
 
 import { FaListAlt, FaShoppingCart } from 'react-icons/fa';
 import { MdKeyboardArrowLeft } from 'react-icons/md';

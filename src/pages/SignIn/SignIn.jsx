@@ -2,7 +2,7 @@ import { Container, Form } from './styles';
 
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
-import { ButtonText } from '../../components/Buttontext';
+import { ButtonText } from '../../components/ButtonText';
 
 import { Link } from 'react-router-dom';
 
