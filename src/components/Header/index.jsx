@@ -2,7 +2,7 @@ import { Container, Favorites, Buy, Logout } from './styles';
 
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
-import { ButtonText } from '../../components/ButtonText';
+import { ButtonText } from '../ButtonText/Index';
 
 import { FiSearch, FiLogOut } from 'react-icons/fi';
 import { AiFillHeart } from 'react-icons/ai';
