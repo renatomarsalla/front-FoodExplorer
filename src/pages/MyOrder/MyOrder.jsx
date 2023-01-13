@@ -2,7 +2,7 @@ import { Container } from './styles';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
-import { ButtonText } from '../../components/Buttontext';
+import { ButtonText } from '../../components/ButtonText';
 import { Button } from '../../components/Button';
 
 import { MdKeyboardArrowLeft } from 'react-icons/md';
