@@ -6,7 +6,7 @@ import { api } from '../../service/api';
 import { useAuth } from '../../hooks/auth';
 import { useState } from 'react';
 
-import { ButtonText } from '../ButtonText';
+import { ButtonText } from '../ButtonText/Index';
 import { Button } from '../Button';
 import { ButtonFavorite } from '../ButtonFavorite';
 import { ButtonUpdate } from '../ButtonUpdate';
