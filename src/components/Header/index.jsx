@@ -1,6 +1,5 @@
 import { Container, Favorites, Buy, Logout } from './styles';
 
-// import { ButtonText } from '../../components/ButtonText';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { ButtonText } from '../../components/ButtonText';
@@ -15,7 +14,6 @@ import { api } from '../../service/api';
 import { useAuth } from '../../hooks/auth';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-// import { useState } from 'react';
 
 function Header({ search, searchDesserts, searchDrinks }) {
   const [units, setUnits] = useState(0);
