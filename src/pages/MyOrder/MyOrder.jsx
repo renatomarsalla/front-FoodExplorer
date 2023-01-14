@@ -55,7 +55,7 @@ function MyOrder() {
   async function deleteItem(item) {
     await api.delete(`/order/${user.id}/${item}`);
     // navigate(`/myOrder/${user.id}`);
-    location.reload();
+    window.location.reload();
   }
 
   useEffect(() => {
