@@ -86,20 +86,17 @@ function UpdateDessert() {
 
   function handleAddIngredient() {
     setIngredients(prevState => [...prevState, ingredientsNew]);
-    // console.log(ingredients);
     setIngredientsNew('');
   }
 
   function handleRemoveIngredient(item) {
     setIngredients(prevState => prevState.filter(ing => ing !== item));
-    // console.log(ingredients);
     setIngredientsNew('');
   }
 
   useEffect(() => {
     async function fetchData() {
       const response = await api.get(`/dessertsUser/${params.id}`);
-      // console.log('response data', response.data);
       setData(response.data);
     }
     fetchData();

@@ -69,7 +69,6 @@ function DetailsDessert() {
   useEffect(() => {
     async function fetchDetails() {
       const response = await api.get(`/dessertsUser/${params.id}`);
-      // console.log(response.data);
       setData(response.data);
     }
 

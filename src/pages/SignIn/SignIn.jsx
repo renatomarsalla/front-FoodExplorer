@@ -10,8 +10,6 @@ import { useAuth } from '../../hooks/auth';
 import { useState } from 'react';
 
 function SignIn() {
-  // const data = useAuth();
-  // console.log('meu contexto', data);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 

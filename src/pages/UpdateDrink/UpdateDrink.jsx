@@ -86,7 +86,6 @@ function UpdateDrink() {
 
   function handleAddIngredient() {
     setIngredients(prevState => [...prevState, ingredientsNew]);
-    // console.log(ingredients);
     setIngredientsNew('');
   }
 
@@ -97,7 +96,6 @@ function UpdateDrink() {
   useEffect(() => {
     async function fetchData() {
       const response = await api.get(`/drinksUser/${params.id}`);
-      // console.log('response data', response.data);
       setData(response.data);
     }
     fetchData();

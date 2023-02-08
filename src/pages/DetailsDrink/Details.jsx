@@ -75,7 +75,6 @@ function DetailsDrink() {
   useEffect(() => {
     async function fetchDetails() {
       const response = await api.get(`/drinksUser/${params.id}`);
-      // console.log(response.data);
       setData(response.data);
     }
 

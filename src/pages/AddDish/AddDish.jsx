@@ -46,7 +46,6 @@ function AddDish() {
 
   function handleAddIngredient() {
     setIngredients(prevState => [...prevState, ingredientsNew]);
-    // console.log(ingredients);
     setIngredientsNew('');
   }
 
