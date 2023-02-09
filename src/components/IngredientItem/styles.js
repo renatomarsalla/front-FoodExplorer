@@ -39,6 +39,7 @@ const Container = styled.div`
     border:none;
     padding: 0 2rem;
     color:${({ theme }) => theme.COLORS.WHITE};
+    font-family:'Roboto', sans-serif;
     
     
 

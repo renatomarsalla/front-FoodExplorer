@@ -14,7 +14,8 @@ function Footer() {
           <path
             d="M13.0635 0.0510254L25.7096 7.35221V21.9546L13.0635 29.2557L0.417527 21.9546V7.35221L13.0635 0.0510254Z"
             fill="white"
-            fill-opacity="0.3"
+            // fill-opacity="0.3"
+            fillOpacity="0.3"
           />
         </svg>
         <h4>food explorer</h4>

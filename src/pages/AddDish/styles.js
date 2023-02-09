@@ -166,8 +166,8 @@ const Container = styled.div`
               display: flex;
               align-items: center;
               gap: 0.5rem;
-              /* color: ${({ theme }) => theme.COLORS.WHITE}; */
               color:${({ theme }) => theme.COLORS.GRAY_100};
+              font-family: 'Roboto', sans-serif;
               
             }
             
@@ -193,6 +193,7 @@ const Container = styled.div`
           padding: 0.6rem;
           color: ${({ theme }) => theme.COLORS.WHITE};
           font-weight: normal;
+          font-family: 'Roboto', sans-serif;
         }
 
         label{
@@ -223,7 +224,8 @@ const Container = styled.div`
 
         label{
           color:${({ theme }) => theme.COLORS.GRAY_100};
-          font-size: 1.4rem;
+          font-size: 1.2rem;
+          font-family: 'Roboto', sans-serif;
         }
         /* input{
           width: 23rem;
@@ -269,8 +271,7 @@ const Container = styled.div`
         label{
           color:${({ theme }) => theme.COLORS.GRAY_100};
           font-family: 'Roboto', sans-serif;
-          /* font-weight: 400; */
-          font-size: 1.4rem;
+          font-size: 1.6rem;
         }
         input{
           width: 10rem;
@@ -281,6 +282,8 @@ const Container = styled.div`
           border-radius: 0.5rem;
 
           color:${({ theme }) => theme.COLORS.GRAY_300};
+
+          font-family: 'Roboto', sans-serif;
         }
       }
     }
@@ -295,7 +298,7 @@ const Container = styled.div`
         color:${({ theme }) => theme.COLORS.GRAY_100};
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
       }
 
       textarea{
@@ -304,6 +307,7 @@ const Container = styled.div`
         padding: 1.2rem;
         color:${({ theme }) => theme.COLORS.GRAY_300};
         border-radius: 0.5rem;
+        font-family: 'Roboto', sans-serif;
       }
     }
 
@@ -391,6 +395,9 @@ const Container = styled.div`
           gap: 1.6rem;
 
           .image{
+            label{
+              font-family: 'Roboto', sans-serif;
+            }
             .imageDish{
               font-size: 1.6rem;
             }
@@ -414,6 +421,9 @@ const Container = styled.div`
           gap: 1.6rem;
 
           .ingredients{
+            label{
+              font-family: 'Roboto', sans-serif;
+            }
             input{
               width: 65.5rem;
             }
