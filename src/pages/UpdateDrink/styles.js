@@ -92,6 +92,18 @@ const Container = styled.div`
           align-items: center;
           justify-content: space-between;
 
+          div{
+            display: flex;
+            gap: 0.8rem;
+            justify-content: center;
+            align-items: center;
+            span{
+              color: red;
+              font-size: 1.4rem;
+              font-family: "Poppins",sans-serif;
+            }
+          }
+
           button{
             background-color: red;
             height: 2rem;

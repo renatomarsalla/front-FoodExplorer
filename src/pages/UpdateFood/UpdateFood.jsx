@@ -85,8 +85,9 @@ function UpdateFood() {
   }
 
   async function deleteDish(id) {
-    // await api.delete(`/dishes/${params.id}`);
     await api.delete(`/dishes/${id}`);
+    alert('Prato excluido');
+
     navigate('/');
   }
 
@@ -167,7 +168,10 @@ function UpdateFood() {
             <Button text="Voltar" icon={MdKeyboardArrowLeft} onClick={home} />
             <div className="delete">
               <h2>Editar prato</h2>
-              <Button icon={FiX} onClick={() => deleteDish(data.id)} />
+              <div>
+                <span>Excluir</span>
+                <Button icon={FiX} onClick={() => deleteDish(data.id)} />
+              </div>
             </div>
           </div>
 
