@@ -4,7 +4,7 @@ import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { ButtonText } from '../ButtonText/Index';
 
-import { FiSearch, FiLogOut } from 'react-icons/fi';
+import { FiSearch, FiLogOut, FiPlus } from 'react-icons/fi';
 import { AiFillHeart } from 'react-icons/ai';
 import { FaShoppingCart } from 'react-icons/fa';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
@@ -33,6 +33,10 @@ function Header({ search, searchDesserts, searchDrinks }) {
 
   function home() {
     navigate('/');
+  }
+
+  function routeAddDish() {
+    navigate('/addDish');
   }
 
   useEffect(() => {
@@ -64,6 +68,13 @@ function Header({ search, searchDesserts, searchDrinks }) {
         <AiFillHeart />
       </Favorites>
       <ButtonText text="Meus favoritos" className="hide btnFavorites" />
+      {user.admin && (
+        <ButtonText
+          text="Novo item"
+          className="hide btnNewItem"
+          onClick={routeAddDish}
+        />
+      )}
       <Input
         icon={FiSearch}
         type="text"

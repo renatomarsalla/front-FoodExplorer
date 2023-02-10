@@ -220,7 +220,7 @@ function Home() {
         </Section>
       </main>
 
-      <div className="newProduct">
+      {/* <div className="newProduct">
         {user.admin && (
           <Button
             text="Cadastrar novo item"
@@ -228,7 +228,7 @@ function Home() {
             onClick={routeAddDish}
           />
         )}
-      </div>
+      </div> */}
 
       <Footer />
     </Container>

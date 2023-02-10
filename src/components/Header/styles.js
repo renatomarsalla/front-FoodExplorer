@@ -58,7 +58,7 @@ const Container = styled.div`
       }
       
     }
-    .btnFavorites{
+    .btnFavorites, .btnNewItem{
       /* width: 27rem;*/
       width: 70rem;
       font-size: 1.6rem;
@@ -89,6 +89,8 @@ const Container = styled.div`
     }
    }
   }
+
+
 `;
 
 const Favorites = styled.button`
